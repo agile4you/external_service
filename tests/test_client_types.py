@@ -1,7 +1,7 @@
 import json
 
 import pytest
-from src.service import Service
+from external_service.service import Service
 
 VALID_URL_GET = 'https://randomuser.me/api/'
 

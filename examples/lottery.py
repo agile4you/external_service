@@ -1,4 +1,4 @@
-from src.service import Service
+from external_service.service import Service
 
 random_numbers_service = Service('random org', 'http')
 

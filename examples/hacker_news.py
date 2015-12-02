@@ -1,4 +1,4 @@
-from src.service import Service
+from external_service.service import Service
 
 
 def find_top(data):

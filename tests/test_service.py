@@ -1,8 +1,8 @@
 import pytest
-from src import protocols
-from src.client_types import HTTPClient
-from src.exceptions import ServiceTypeException
-from src.service import Service
+from external_service import protocols
+from external_service.client_types import HTTPClient
+from external_service.exceptions import ServiceTypeException
+from external_service.service import Service
 
 
 def test_proper_initializing_service():
